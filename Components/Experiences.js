@@ -34,18 +34,18 @@ const Handler = () => {
           id={styles.experiencesImage}
           className="w-[321px] h-[321px] relative"
         >
-          <Image src={doctorPose} className="z-[100]" />
+          <Image alt="h3llo world" src={doctorPose} className="z-[100]" />
           <div className="absolute top-[-3%] left-[30%] z-[50]">
-            <Image src={ellipse} />
+            <Image alt="h3llo world" src={ellipse} />
           </div>
           <div className="absolute top-[-3%] right-[5%] z-[50]">
-            <Image src={bloodImg} />
+            <Image alt="h3llo world" src={bloodImg} />
           </div>
           <div className="absolute top-[8%] left-[5%] z-[50]">
-            <Image src={firstAid} />
+            <Image alt="h3llo world" src={firstAid} />
           </div>
           <div className="absolute bottom-[30%] left-[25%] z-[50]">
-            <Image src={plastrer} />
+            <Image alt="h3llo world" src={plastrer} />
           </div>
         </div>
       </div>

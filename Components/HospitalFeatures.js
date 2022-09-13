@@ -15,21 +15,21 @@ const Handler = () => {
     <div className="flex justify-between mt-[56px]">
       {/* image side  */}
       <div className="w-[321px] h-[321px] relative mt-[16px]">
-        <Image src={doctorPose} className="z-[100]" />
+        <Image alt="h3llo world" src={doctorPose} className="z-[100]" />
         <div className="absolute bottom-[-10%] z-[50]">
-          <Image src={ellipseOne} />
+          <Image alt="h3llo world" src={ellipseOne} />
         </div>
         <div className="absolute top-[10%] left-[30%] z-[50]">
-          <Image src={ellipseTwo} />
+          <Image alt="h3llo world" src={ellipseTwo} />
         </div>
         <div className="absolute top-0 left-[28%] z-[50]">
-          <Image src={mask} />
+          <Image alt="h3llo world" src={mask} />
         </div>
         <div className="absolute bottom-[25%] left-[10%] z-[50]">
-          <Image src={senitizer} />
+          <Image alt="h3llo world" src={senitizer} />
         </div>
         <div className="absolute bottom-[20%] right-[10%] z-[50]">
-          <Image src={thermoGun} />
+          <Image alt="h3llo world" src={thermoGun} />
         </div>
       </div>
       {/* text side  */}
@@ -45,9 +45,15 @@ const Handler = () => {
           {/* doctor support  */}
           <div className="w-[279px] h-[157px] px-[17px] pt-[10px] card">
             <div className="flex items-end justify-between">
-              <h6 className="text-[14px] text-textColor">24 Hours Doctor Support</h6>
+              <h6 className="text-[14px] text-textColor">
+                24 Hours Doctor Support
+              </h6>
               <div className="w-[45px] h-[45px] bg-[#E8F3FD] rounded-[50%] flex justify-center items-center">
-                <Image src={doctorSupport} className="w-[35px] h-[35px]" />
+                <Image
+                  alt="h3llo world"
+                  src={doctorSupport}
+                  className="w-[35px] h-[35px]"
+                />
               </div>
             </div>
             <p className="text-paragraphColor mt-[12px] text-[14px]">{`simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's `}</p>
@@ -57,7 +63,11 @@ const Handler = () => {
             <div className="flex items-end justify-between">
               <h6 className="text-[14px] text-textColor">Exclusive Supports</h6>
               <div className="w-[45px] h-[45px] bg-[#FDE7E8] rounded-[50%] flex justify-center items-center">
-                <Image src={exclusiveSupport} className="w-[35px] h-[35px]" />
+                <Image
+                  alt="h3llo world"
+                  src={exclusiveSupport}
+                  className="w-[35px] h-[35px]"
+                />
               </div>
             </div>
             <p className="text-paragraphColor mt-[12px] text-[14px]">{`simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's `}</p>
@@ -65,7 +75,9 @@ const Handler = () => {
           {/* friendly environment  */}
           <div className="w-[279px] h-[157px] px-[17px] pt-[10px] pb-[17px] card">
             <div className="flex items-end justify-between">
-              <h6 className="text-[14px] text-textColor">Friendly Environment </h6>
+              <h6 className="text-[14px] text-textColor">
+                Friendly Environment{" "}
+              </h6>
               <div className="w-[45px] h-[45px] bg-[#E0F0DB] rounded-[50%] flex justify-center items-center">
                 <Image
                   src={frinedlyEnvironment}
@@ -78,12 +90,11 @@ const Handler = () => {
           {/* nurse support  */}
           <div className="w-[279px] h-[157px] px-[17px] pt-[10px] pb-[17px] card">
             <div className="flex items-end justify-between">
-              <h6 className="text-[14px] text-textColor">24 Hours Nurse Support </h6>
+              <h6 className="text-[14px] text-textColor">
+                24 Hours Nurse Support{" "}
+              </h6>
               <div className="w-[45px] h-[45px] bg-[#FFEECC] rounded-[50%] flex justify-center items-center">
-                <Image
-                  src={nurseSupport}
-                  className="w-[35px] h-[35px]"
-                />
+                <Image src={nurseSupport} className="w-[35px] h-[35px]" />
               </div>
             </div>
             <p className="text-paragraphColor mt-[12px] text-[14px]">{`simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's `}</p>

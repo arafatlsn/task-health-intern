@@ -25,26 +25,30 @@ const Handler = () => {
       </div>
       {/* image side  */}
       <div className="w-[321px] h-[321px] relative">
-        <Image src={doctorPose} className="z-[100]" />
+        <Image alt="h3llo world" src={doctorPose} className="z-[100]" />
         <div className="absolute bottom-[-7%] z-[50]">
-          <Image src={ellipseOne} />
+          <Image alt="h3llo world" src={ellipseOne} />
         </div>
         <div className="absolute top-[6%] left-[30%] z-[50]">
-          <Image src={ellipseTwo} />
+          <Image alt="h3llo world" src={ellipseTwo} />
         </div>
         <div className="absolute top-[-3%] right-[5%] z-[50]">
-          <Image src={bloodImg} />
+          <Image alt="h3llo world" src={bloodImg} />
         </div>
         <div className="absolute top-[15%] left-[5%] z-[50]">
-          <Image src={heart} />
+          <Image alt="h3llo world" src={heart} />
         </div>
         <div className="absolute bottom-[30%] right-[25%] z-[50]">
-          <Image src={handGlabs} />
+          <Image alt="h3llo world" src={handGlabs} />
         </div>
         <div className="absolute bottom-[15%] left-0 z-[100] translate-x-[-40%]">
           <button className="bg-[white] w-[211px] h-[58px] py-[14px] pl-[10px] pr-[35px] text-start text-[12px] leading-[15px] flex items-center gap-[10px] rounded-[10px]">
             <div className="p-[10px] flex justify-center items-center rounded-[50%] bg-[#FFF0CC]">
-              <Image className="w-[20px] h-[20px]" src={bulb} />
+              <Image
+                alt="h3llo world"
+                className="w-[20px] h-[20px]"
+                src={bulb}
+              />
             </div>{" "}
             Get Solutions From Our Experts
           </button>

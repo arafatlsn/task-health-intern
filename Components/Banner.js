@@ -7,8 +7,8 @@ import avatarOne from "../Assets/Ellipse 6 (1).png";
 import avatarTwo from "../Assets/Ellipse 7.png";
 import avatarThree from "../Assets/Ellipse 8.png";
 import avatarFour from "../Assets/Ellipse 9.png";
-import progressOne from "../Assets/Rectangle 4.png"
-import progressTwo from "../Assets/Rectangle 5.png"
+import progressOne from "../Assets/Rectangle 4.png";
+import progressTwo from "../Assets/Rectangle 5.png";
 
 const Handler = () => {
   return (
@@ -49,24 +49,41 @@ const Handler = () => {
           id={styles.bannerDoctorBg}
           className="w-[466px] h-[466px] relative"
         >
-          <Image src={doctorImage} alt="" />
+          <Image alt="h3llo world" src={doctorImage} />
           <button className="flex gap-[10px] items-center absolute bg-secondary text-[white] py-[15px] px-[30px] leading-[15px] rounded-[5px] left-0 top-[315px] z-[50] translate-x-[-30%] whitespace-nowrap">
             <FaRegCheckCircle /> Regular Checkup
           </button>
-          <div id={styles.meetDoctors} className="absolute top-[350px] right-0 translate-x-[4rem] bg-[white] px-[16px] py-[10px] rounded-[10px]">
+          <div
+            id={styles.meetDoctors}
+            className="absolute top-[350px] right-0 translate-x-[4rem] bg-[white] px-[16px] py-[10px] rounded-[10px]"
+          >
             <p className="text-textColor leading-[17px] font-[550]">
               Meet Our Doctors
             </p>
             <div className="mt-[16px] flex items-center">
-              <Image src={avatarOne} />
-              <Image src={avatarTwo} className="translate-x-[-15%]" />
-              <Image src={avatarThree} className="translate-x-[-15%]" />
-              <Image src={avatarFour} className="translate-x-[-15%]" />
-              <span><BsFillPlusCircleFill className="text-primary text-[30px] ml-[13px]"/></span>
+              <Image alt="h3llo world" src={avatarOne} />
+              <Image
+                alt="h3llo world"
+                src={avatarTwo}
+                className="translate-x-[-15%]"
+              />
+              <Image
+                alt="h3llo world"
+                src={avatarThree}
+                className="translate-x-[-15%]"
+              />
+              <Image
+                alt="h3llo world"
+                src={avatarFour}
+                className="translate-x-[-15%]"
+              />
+              <span>
+                <BsFillPlusCircleFill className="text-primary text-[30px] ml-[13px]" />
+              </span>
             </div>
             <div className="flex flex-col gap-[10px] mt-[10px]">
-            <Image src={progressOne} />
-            <Image src={progressTwo} />
+              <Image alt="h3llo world" src={progressOne} />
+              <Image alt="h3llo world" src={progressTwo} />
             </div>
           </div>
         </div>

@@ -15,9 +15,7 @@ const Handler = () => {
       </h3>
       <div className="flex items-center gap-[20px] justify-center mt-[28px]">
         {/* cardiology  */}
-        <div
-          className="w-[236px] h-[152px] p-[12px] box-content card"
-        >
+        <div className="w-[236px] h-[152px] p-[12px] box-content card">
           <h6 className="flex items-end justify-between text-textColor font-[600]">
             Cardiology <GiHeartBeats className="text-secondary text-[1.8rem]" />
           </h6>
@@ -29,9 +27,7 @@ const Handler = () => {
           </button>
         </div>
         {/* daily checkup  */}
-        <div
-          className="w-[236px] h-[152px] p-[12px] box-content card"
-        >
+        <div className="w-[236px] h-[152px] p-[12px] box-content card">
           <h6 className="flex items-end justify-between text-textColor font-[600]">
             Monthly Check Up{" "}
             <TbClipboardCheck className="text-[#2D42FF] text-[1.8rem]" />
@@ -44,9 +40,7 @@ const Handler = () => {
           </button>
         </div>
         {/* Dental Care */}
-        <div
-          className="w-[236px] h-[152px] p-[12px] box-content card"
-        >
+        <div className="w-[236px] h-[152px] p-[12px] box-content card">
           <h6 className="flex items-end justify-between text-textColor font-[600]">
             Dental Care <FaTooth className="text-primary text-[1.8rem]" />
           </h6>
@@ -58,12 +52,14 @@ const Handler = () => {
           </button>
         </div>
         {/* Opthalmology  */}
-        <div
-          className="w-[236px] h-[152px] p-[12px] box-content card"
-        >
+        <div className="w-[236px] h-[152px] p-[12px] box-content card">
           <h6 className="flex items-end justify-between text-textColor font-[600]">
             Opthalmology{" "}
-            <Image src={bagPlus} className="text-secondary h-[1.8rem]" />
+            <Image
+              alt="h3llo world"
+              src={bagPlus}
+              className="text-secondary h-[1.8rem]"
+            />
           </h6>
           <p className="text-paragraphColor mt-[12px]">
             Seduahag perspiciati under omnised atused error.

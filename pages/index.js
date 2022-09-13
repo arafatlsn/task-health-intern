@@ -11,11 +11,14 @@ import Footer from "../Components/Footer";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Welcome to Docmic</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <div className="bg-gradient-to-b from-[#e8f8ff] to-[#fef7ff]">
+        <Head>
+          <title>{"Welcome to Docmic"}</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <div className="w-[1006px] mx-auto pb-[56px]">
           <NavBar />
           <Banner />

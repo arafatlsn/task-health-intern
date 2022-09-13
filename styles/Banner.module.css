@@ -1,0 +1,9 @@
+#bannerDoctorBg{
+  background-image: url("../Assets/Ellipse\ 11.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#card{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}

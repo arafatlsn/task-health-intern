@@ -7,6 +7,7 @@ import HospitalFeatures from "../Components/HospitalFeatures";
 import FaqQuestions from "../Components/FaqQuestions";
 import CarouselComp from "../Components/CarouselComp";
 import Footer from "../Components/Footer";
+// import '../styles/globals.css'
 
 export default function Home() {
   return (
